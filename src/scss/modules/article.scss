@@ -1,9 +1,9 @@
-
 .margin-article{
     margin-top: 70px;
 
     .card-btn{
-        width: 180px;
+        width: 100px;
+        font-size: 12px;
         padding: 10px;
         background-color: transparent;
         border: 2px solid orange;
@@ -27,22 +27,22 @@
     
     .card-opacity-div{
         width: 100%;
-        height: 55px;
+        height: 20px;
         opacity: 0.5;
         background-color: orange;
         position: absolute;
-        bottom: 240px;
+        bottom: 520px;
     
     
     }
     
     .paragraph-opacity{
         font-weight: bold;
-        font-size: 20px;
+        font-size: 10px;
         align-self: center;
         color: #fff;
         position: absolute;
-        top: 220px;
+        top: 93px;
        
         
     }
@@ -53,10 +53,10 @@
     }
     
     .btnn-2{
-        width: 250px;
+        width: 200px;
         padding: 10px;
         background-color: orange;
-    
+        font-size: 12px;
     
     
     }
@@ -64,9 +64,252 @@
     .margin-article-last{
         margin-top: 110px;
         margin-bottom: 110px;
+
+        .p-mt{
+            margin-top: 20px;
+        }
     }
 }
 
+
+@include media-breakpoint-up(md){
+    .margin-article{
+        margin-top: 70px;
+    
+        .card-btn{
+            width: 180px;
+            padding: 10px;
+            background-color: transparent;
+            border: 2px solid orange;
+            color: orange;
+            &:hover{
+                background-color: orange;
+                color: #fff;
+            }
+           
+            a{
+        
+                text-decoration: none;
+            }
+            
+        }
+        
+        .card-pic{
+        
+            position: relative;
+        }
+        
+        .card-opacity-div{
+            width: 100%;
+            height: 30px;
+            opacity: 0.5;
+            background-color: orange;
+            position: absolute;
+            bottom: 353px;
+        
+        
+        }
+        
+        .paragraph-opacity{
+            font-weight: bold;
+            font-size: 14px;
+            align-self: center;
+            color: #fff;
+            position: absolute;
+            top: 130px;
+           
+            
+        }
+        
+        
+        .fa-check{
+            color: orange;
+        }
+        
+        .btnn-2{
+            width: 220px;
+            padding: 10px;
+            background-color: orange;
+            font-size: 14px;
+        
+        
+        
+        }
+    
+        .margin-article-last{
+            margin-top: 110px;
+            margin-bottom: 110px;
+
+            .p-size{
+
+                font-size: 14px;
+            }
+
+            .p-mt{
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@include media-breakpoint-up(lg){
+
+    .margin-article{
+        margin-top: 70px;
+    
+        .card-btn{
+            width: 180px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: transparent;
+            border: 2px solid orange;
+            color: orange;
+            &:hover{
+                background-color: orange;
+                color: #fff;
+            }
+           
+            a{
+        
+                text-decoration: none;
+            }
+            
+        }
+        
+        .card-pic{
+        
+            position: relative;
+        }
+        
+        .card-opacity-div{
+            width: 100%;
+            height: 50px;
+            opacity: 0.5;
+            background-color: orange;
+            position: absolute;
+            bottom: 288px;
+        
+        
+        }
+        
+        .paragraph-opacity{
+            font-weight: bold;
+            
+            align-self: center;
+            color: #fff;
+            position: absolute;
+            top: 180px;
+           
+            
+        }
+        
+        
+        .fa-check{
+            color: orange;
+        }
+        
+        .btnn-2{
+            width: 250px;
+            padding: 10px;
+            background-color: orange;
+        
+        
+        
+        }
+    
+        .margin-article-last{
+            margin-top: 110px;
+            margin-bottom: 110px;
+
+            .p-size{
+
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+@include media-breakpoint-up(xl){
+
+    .margin-article{
+        margin-top: 70px;
+    
+        .card-btn{
+            width: 250px;
+            font-size: 18px;
+            padding: 10px;
+            background-color: transparent;
+            border: 2px solid orange;
+            color: orange;
+            &:hover{
+                background-color: orange;
+                color: #fff;
+            }
+           
+            a{
+        
+                text-decoration: none;
+            }
+            
+        }
+        
+        .card-pic{
+        
+            position: relative;
+        }
+        
+        .card-opacity-div{
+            width: 100%;
+            height: 50px;
+            opacity: 0.5;
+            background-color: orange;
+            position: absolute;
+            bottom: 243px;
+        
+        
+        }
+        
+        .paragraph-opacity{
+            font-weight: bold;
+            font-size: 18px;
+            align-self: center;
+            color: #fff;
+            position: absolute;
+            top: 220px;
+           
+            
+        }
+        
+        
+        .fa-check{
+            color: orange;
+        }
+        
+        .btnn-2{
+            width: 250px;
+            padding: 10px;
+            background-color: orange;
+        
+        
+        }
+    
+        .margin-article-last{
+            margin-top: 110px;
+            margin-bottom: 110px;
+
+            .p-size{
+
+                font-size: 18px;
+            }
+        }
+    }
+}
 
 
 
