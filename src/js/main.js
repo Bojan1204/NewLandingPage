@@ -1,15 +1,6 @@
-// Custom JS
+let element = document.querySelectorAll(".margin-article")
 
-console.log('Website is runing..');
-
-
-// $('.test-btn').addClass('fat')
-
-
-var $test = $('.test-btn');
-
-$test.click(function () {
-    $(this).addClass('TEST')
-  });
-
+function scrollIntoShowcase() {
+  element.scrollIntoView({behavior: "smooth"})
+}
 

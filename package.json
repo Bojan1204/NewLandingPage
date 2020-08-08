@@ -7,6 +7,7 @@
     "start": "webpack-dev-server  --config webpack.dev.js --open chrome --watch",
     "build": "webpack --config webpack.prod.js"
   },
+  "repository": { "type": "git", "url": "git://https://github.com/Bojan1204/NewLandingPage.git" },
   "keywords": [],
   "author": "Stanislav Vranic - Crowscript",
   "license": "ISC",
