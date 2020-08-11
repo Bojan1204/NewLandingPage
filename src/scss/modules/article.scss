@@ -2,7 +2,7 @@
     margin-top: 70px;
 
     .card-btn{
-        width: 100px;
+        width: 200px;
         font-size: 12px;
         padding: 10px;
         background-color: transparent;
@@ -27,22 +27,22 @@
     
     .card-opacity-div{
         width: 100%;
-        height: 20px;
+        height: 75px;
         opacity: 0.5;
         background-color: orange;
         position: absolute;
-        bottom: 520px;
+        bottom: 210px;
     
     
     }
     
     .paragraph-opacity{
         font-weight: bold;
-        font-size: 10px;
+        font-size: 18px;
         align-self: center;
         color: #fff;
         position: absolute;
-        top: 93px;
+        top: 320px;
        
         
     }
@@ -77,8 +77,8 @@
         margin-top: 70px;
     
         .card-btn{
-            width: 150px;
-            padding: 10px;
+            width: 200px;
+            padding: 15px;
             background-color: transparent;
             border: 2px solid orange;
             color: orange;
@@ -101,22 +101,22 @@
         
         .card-opacity-div{
             width: 100%;
-            height: 30px;
+            height: 105px;
             opacity: 0.5;
             background-color: orange;
             position: absolute;
-            bottom: 353px;
+            bottom: 195px;
         
         
         }
         
         .paragraph-opacity{
             font-weight: bold;
-            font-size: 14px;
+            font-size: 22px;
             align-self: center;
             color: #fff;
             position: absolute;
-            top: 130px;
+            top: 435px;
            
             
         }
@@ -141,13 +141,10 @@
             margin-bottom: 110px;
 
             .p-size{
-
                 font-size: 14px;
             }
 
-            .p-mt{
-                margin-top: 0;
-            }
+            
         }
     }
 }
@@ -199,9 +196,9 @@
         
         .paragraph-opacity{
             font-weight: bold;
-            
             align-self: center;
             color: #fff;
+            font-size: 18px;
             position: absolute;
             top: 180px;
            
