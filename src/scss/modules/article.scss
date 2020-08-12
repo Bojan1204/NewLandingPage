@@ -273,13 +273,15 @@
 
         .card-btn1{
 
-            border: 2px solid #494e52;
+           border: 2px solid #494e52;
             color: #494e52;
-    
+            
             &:hover{
-                background-color: #494e52;
+                background-color: #e95a0c;
                 color: #fff;
+                border: 2px solid #e95a0c;
             }
+          
         }
         
         .card-pic{
@@ -295,14 +297,15 @@
             position: absolute;
             bottom: 243px;
 
-           
-        
-        
         }
 
         .card-opacity-div1{
 
             background-color: #494e52;
+
+            &:hover{
+                background-color: #b88428;
+            }
         }
         
         .paragraph-opacity{
