@@ -6,10 +6,10 @@
         font-size: 12px;
         padding: 10px;
         background-color: transparent;
-        border: 2px solid orange;
-        color: orange;
+        border: 2px solid #e95a0c;
+        color: #e95a0c;
         &:hover{
-            background-color: orange;
+            background-color: #e95a0c;
             color: #fff;
         }
        
@@ -19,6 +19,8 @@
         }
         
     }
+
+ 
     
     .card-pic{
     
@@ -29,11 +31,16 @@
         width: 100%;
         height: 75px;
         opacity: 0.5;
-        background-color: orange;
+        background-color: #b88428;
         position: absolute;
         bottom: 210px;
     
     
+    }
+
+    .card-opacity-div1{
+
+        background-color: #494e52;
     }
     
     .paragraph-opacity{
@@ -49,13 +56,13 @@
     
     
     .fa-check{
-        color: orange;
+        color: #e95a0c;
     }
     
     .btnn-2{
         width: 200px;
         padding: 10px;
-        background-color: orange;
+        background-color: #e95a0c;
         font-size: 12px;
     
     
@@ -65,9 +72,7 @@
         margin-top: 110px;
         margin-bottom: 110px;
 
-        .p-mt{
-            margin-top: 20px;
-        }
+        
     }
 }
 
@@ -80,10 +85,10 @@
             width: 200px;
             padding: 15px;
             background-color: transparent;
-            border: 2px solid orange;
-            color: orange;
+            border: 2px solid #e95a0c;
+            color: #e95a0c;
             &:hover{
-                background-color: orange;
+                background-color: #e95a0c;
                 color: #fff;
             }
            
@@ -103,11 +108,16 @@
             width: 100%;
             height: 105px;
             opacity: 0.5;
-            background-color: orange;
+            background-color: #b88428;
             position: absolute;
             bottom: 195px;
         
         
+        }
+
+        .card-opacity-div1{
+
+            background-color: #494e52;
         }
         
         .paragraph-opacity{
@@ -123,13 +133,13 @@
         
         
         .fa-check{
-            color: orange;
+            color: #e95a0c;
         }
         
         .btnn-2{
             width: 220px;
             padding: 10px;
-            background-color: orange;
+            background-color: #e95a0c;
             font-size: 14px;
         
         
@@ -164,10 +174,10 @@
             padding: 10px;
             font-size: 16px;
             background-color: transparent;
-            border: 2px solid orange;
-            color: orange;
+            border: 2px solid #e95a0c;
+            color: #e95a0c;
             &:hover{
-                background-color: orange;
+                background-color: #e95a0c;
                 color: #fff;
             }
            
@@ -187,7 +197,7 @@
             width: 100%;
             height: 50px;
             opacity: 0.5;
-            background-color: orange;
+            background-color: #b88428;
             position: absolute;
             bottom: 288px;
         
@@ -204,16 +214,21 @@
            
             
         }
+
+        .card-opacity-div1{
+
+            background-color: #494e52;
+        }
         
         
         .fa-check{
-            color: orange;
+            color: #e95a0c;
         }
         
         .btnn-2{
             width: 220px;
             padding: 10px;
-            background-color: orange;
+            background-color: #e95a0c;
         
         
         
@@ -242,10 +257,10 @@
             font-size: 18px;
             padding: 10px;
             background-color: transparent;
-            border: 2px solid orange;
-            color: orange;
+            border: 2px solid #e95a0c;
+            color: #e95a0c;
             &:hover{
-                background-color: orange;
+                background-color: #e95a0c;
                 color: #fff;
             }
            
@@ -254,6 +269,17 @@
                 text-decoration: none;
             }
             
+        }
+
+        .card-btn1{
+
+            border: 2px solid #494e52;
+            color: #494e52;
+    
+            &:hover{
+                background-color: #494e52;
+                color: #fff;
+            }
         }
         
         .card-pic{
@@ -264,12 +290,19 @@
         .card-opacity-div{
             width: 100%;
             height: 50px;
-            opacity: 0.5;
-            background-color: orange;
+            opacity: 0.8;
+            background-color: #b88428;
             position: absolute;
             bottom: 243px;
+
+           
         
         
+        }
+
+        .card-opacity-div1{
+
+            background-color: #494e52;
         }
         
         .paragraph-opacity{
@@ -282,16 +315,20 @@
            
             
         }
+
+        .card-body{
+            background-color: #eeeef0;
+        }
         
         
         .fa-check{
-            color: orange;
+            color: #e95a0c;
         }
         
         .btnn-2{
             width: 220px;
             padding: 10px;
-            background-color: orange;
+            background-color: #e95a0c;
             
         
         }
