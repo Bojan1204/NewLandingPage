@@ -1,3 +1,83 @@
+
+.section{
+    margin-top: 150px;
+
+    .margin-section{
+
+        margin-top: 60px;
+    }
+
+
+    .lines{
+        margin-top: 80px;
+    
+        .line1{
+            width: 10%;
+             height: 2px;
+             background: #000000;
+             border-radius: 5px;
+         }
+     
+     .line2{
+         width: 20%;
+         height: 2px;
+         background: #000000;
+         margin: 10px;
+         border-radius: 5px;
+     }
+    }
+    
+    .circle1{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: gray;
+        border-radius: 50%;
+        
+    }
+    
+    .circle-sign{
+        font-size: 60px;
+       color: #ffffff;
+       
+    }
+    
+    .sign1{
+        position: absolute;
+        left: 180px;
+        top: 50px;
+    }
+    
+    .sign2{
+        position: absolute;
+        left: 245px;
+        top: 50px;
+    }
+    
+    .sign3{
+        position: absolute;
+        left: 238px;
+        top: 50px;
+    }
+    
+    .btn-2{
+        width: 200px;
+        padding: 10px;
+        background-color: #e95a0c;
+        border: none;
+        color: rgb(224, 219, 219);
+    
+        &:hover{
+            background-color: transparent;
+            border: 2px solid #e95a0c;
+            color: #000000;
+        }
+    }
+ }
+
+
+
+@include media-breakpoint-up(sm){
 .section{
     margin-top: 150px;
 
@@ -72,8 +152,8 @@
             color: #000000;
         }
     }
+ }
 }
-
 @include media-breakpoint-up(md){
 
     .section{

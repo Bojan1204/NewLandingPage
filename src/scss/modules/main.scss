@@ -1,4 +1,4 @@
-    main {
+main {
     position: relative;
     height: 100vh;
     z-index: 1;
@@ -18,7 +18,110 @@
         z-index: -1;
     }
 
-    .laganica{
+    .main-blanket{
+        
+        width: 100%;
+        height: 100%;
+        opacity: 0.98;
+        background-color: #21212d;
+
+        .opacity-header{
+    
+            width: 100%;
+            height: 80px;
+            font-size: 18px;
+            background-color: #e95a0c;
+            z-index: 1;
+        
+            .title-last{
+
+                font-size: 12px;
+
+                .btn-last{
+                
+                    width: 100px;
+                    color: #e95a0c;
+                    font-size: 12px;
+                    padding: 5px;
+                    margin-top: 5px;
+                    border: 1px solid #ffffff;
+    
+                    &:hover{
+                        background-color: #e95a0c;
+                        color: #ffffff;
+                        
+                    }
+        
+            
+                }
+            }
+        }
+
+        .padd-row{
+            margin-top: 120px;
+
+            .img-radius{
+                border-radius: 50%;
+                border: 5px solid #ffffff;
+                
+            }
+
+            .img1{
+                margin-right: 0;
+                width: 80px;
+            }
+
+            .img2{
+                width: 100px;
+            }
+
+            .img3{
+                margin-left: 0;
+                width: 80px;
+            }
+        }
+
+        .row-last{
+            z-index: 1;
+            color: #ffffff;
+            margin-top: 130px;
+    
+            .p-last{
+                font-size: 12px;
+                line-height: 1.5;
+            }
+
+            .txt-small{
+                font-size: 8px;
+            }
+        }
+    }
+ }
+
+
+
+@include media-breakpoint-up(sm){
+   main {
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+    text-align: center;
+    font-size: 50px;
+
+
+    &::before{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: url("../img/mercedes-benz.jpg")  no-repeat center center /cover;
+        content: '';
+        z-index: -1;
+    }
+
+    .main-blanket{
         
         width: 100%;
         height: 100%;
@@ -42,8 +145,9 @@
                     width: 120px;
                     color: #e95a0c;
                     font-size: 12px;
-                    padding: 10px;
-                    margin-left: 15px;
+                    padding: 8px;
+                    margin-top: 5px;
+
                     border: 1px solid #ffffff;
     
                     &:hover{
@@ -58,7 +162,6 @@
         }
 
         .padd-row{
-            //padding: 200px;
             margin-top: 120px;
 
             .img-radius{
@@ -96,6 +199,7 @@
             }
         }
     }
+ }
 }
 
 @include media-breakpoint-up(md){
@@ -119,7 +223,7 @@
         z-index: -1;
     }
 
-    .laganica{
+    .main-blanket{
         width: 100%;
         height: 100%;
         opacity: 0.98;
@@ -138,11 +242,12 @@
 
                 .btn-last{
                 
-                    width: 150px;
+                    width: 140px;
                     color: #e95a0c;
                     font-size: 14px;
-                    padding: 10px;
+                    padding: 8px;
                     margin-left: 15px;
+                    margin-top: 2px;
                     border: 1px solid #ffffff;
     
                     &:hover{
@@ -225,26 +330,14 @@
         
     }
 
-    .laganica{
+    .main-blanket{
         
         width: 100%;
         height: 100%;
-        opacity: 0.98;
+        opacity: 0.99;
         background-color: #21212d;
-        
-
-        &::before{
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 200px;
-            border: 1px solid #ffffff;
-            background: #fff;
-            clip-path: polygon(100% 50%,0 100%,100% 100%);
-        }
-
+      
+    
         .opacity-header{
     
             width: 100%;
