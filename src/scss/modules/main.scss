@@ -370,9 +370,7 @@ main {
             }
         }
 
-        .padd-row{
-            
-            margin-top: 150px;
+           
 
             .img-radius{
                 border-radius: 50%;
@@ -392,25 +390,26 @@ main {
                 margin-left: 0;
                 width: 100px;
             }
-        }
+       
 
-        .row-last{
             z-index: 1;
             color: #ffffff;
             margin-top: 120px;
     
             .p-last{
-                font-size: 20px;
+                font-size: 10px;
                 line-height: 1.5;
             }
 
             .txt-small{
                 font-size: 12px;
             }
+         
+    
         }
     }
-  }
 }
+
 
 .lines{
     margin-top: 150px;

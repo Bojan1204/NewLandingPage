@@ -1,4 +1,17 @@
 
+.navbar {
+    
+    padding-bottom: 15px;
+    transition: all 0.3s;
+  }
+
+  .navbar.compressed {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    box-shadow:  1px  1px  rgba(0, 0, 0, 0.1);
+  }
+
+
   .navbar-brand{
 
     height: 100px;

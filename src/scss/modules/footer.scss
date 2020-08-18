@@ -1,6 +1,30 @@
 .footer{
-
     margin-top: 150px;
+
+    .backToTop{
+        display: none;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        font-size: 3em;
+        z-index: 9999;
+        height: 50px;
+        width: 50px;
+        background-color: #e95a0c;
+        text-align: center;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      .backToTop i{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        color: #fff;
+      }
+      .backToTop i:hover{
+        color: #000;
+      }
+
 
     .row-footer{
         border-bottom: 1px solid #cccccc;
