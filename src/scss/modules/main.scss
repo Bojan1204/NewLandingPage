@@ -1,4 +1,4 @@
-main {
+.testimonials-img-bg {
     position: relative;
     height: 100vh;
     z-index: 1;
@@ -57,6 +57,30 @@ main {
             }
         }
 
+        .slider{
+
+            margin-top: 80px;
+        }
+       
+        .img-radius{
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+            width: 100px;
+        
+        }
+
+        .padding-p{
+            font-size: 16px;
+            margin-top: 50px;
+            padding-left: 50px;
+            padding-right:  50px;
+        }
+
+        .padding-small{
+            font-size: 14px;
+            margin: 0;
+        }
+
         .padd-row{
             margin-top: 120px;
 
@@ -66,22 +90,9 @@ main {
                 
             }
 
-            .img1{
-                margin-right: 0;
-                width: 80px;
-            }
-
-            .img2{
-                width: 100px;
-            }
-
-            .img3{
-                margin-left: 0;
-                width: 80px;
-            }
         }
 
-        .row-last{
+       
             z-index: 1;
             color: #ffffff;
             margin-top: 130px;
@@ -94,14 +105,14 @@ main {
             .txt-small{
                 font-size: 8px;
             }
-        }
+        
     }
  }
 
 
 
 @include media-breakpoint-up(sm){
-   main {
+    .testimonials-img-bg {
     position: relative;
     height: 100vh;
     z-index: 1;
@@ -161,6 +172,30 @@ main {
             }
         }
 
+        .slider{
+
+            margin-top: 30px;
+        }
+       
+        .img-radius{
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+            width: 120px;
+        
+        }
+
+        .padding-p{
+            font-size: 16px;
+            margin-top: 50px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
+        .padding-small{
+            font-size: 14px;
+            margin: 0;
+        }
+
         .padd-row{
             margin-top: 120px;
 
@@ -169,22 +204,10 @@ main {
                 border: 5px solid #ffffff;
             }
 
-            .img1{
-                margin-right: 0;
-                width: 80px;
-            }
-
-            .img2{
-                width: 100px;
-            }
-
-            .img3{
-                margin-left: 0;
-                width: 80px;
-            }
+      
         }
 
-        .row-last{
+
             z-index: 1;
             color: #ffffff;
             margin-top: 130px;
@@ -197,13 +220,13 @@ main {
             .txt-small{
                 font-size: 8px;
             }
-        }
+        
     }
  }
 }
 
 @include media-breakpoint-up(md){
-    main {
+    .testimonials-img-bg {
     position: relative;
     height: 100vh;
     z-index: 1;
@@ -259,8 +282,30 @@ main {
             
                 }
             }
+        }
+
+        .slider{
+
+            margin-top: 30px;
+        }
+       
+        .img-radius{
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+            width: 140px;
         
-         
+        }
+
+        .padding-p{
+            font-size: 20px;
+            margin-top: 100px;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+
+        .padding-small{
+            font-size: 14px;
+            margin: 0;
         }
 
         .padd-row{
@@ -271,22 +316,9 @@ main {
                 border: 2px solid #ffffff;
             }
 
-            .img1{
-                margin-right: 0;
-                width: 80px;
-            }
-
-            .img2{
-                width: 120px;
-            }
-
-            .img3{
-                margin-left: 0;
-                width: 80px;
-            }
         }
 
-        .row-last{
+    
             z-index: 1;
             color: #ffffff;
             margin-top: 80px;
@@ -299,7 +331,7 @@ main {
             .txt-small{
                 font-size: 8px;
             }
-        }
+        
     }
     
     }
@@ -308,7 +340,7 @@ main {
 
 @include media-breakpoint-up(xl){
 
-    main {
+    .testimonials-img-bg {
     position: relative;
     height: 100vh;
     z-index: 1;
@@ -370,27 +402,30 @@ main {
             }
         }
 
-           
 
+            .slider{
+
+                margin-top: 100px;
+            }
+           
             .img-radius{
                 border-radius: 50%;
                 border: 2px solid #ffffff;
-            }
-
-            .img1{
-                margin-right: 0;
-                width: 100px;
-            }
-
-            .img2{
                 width: 140px;
+            
             }
 
-            .img3{
-                margin-left: 0;
-                width: 100px;
+            .padding-p{
+                font-size: 20px;
+                margin-top: 100px;
+                padding-left: 250px;
+                padding-right: 250px;
             }
-       
+
+            .padding-small{
+                font-size: 14px;
+                margin: 0;
+            }
 
             z-index: 1;
             color: #ffffff;
