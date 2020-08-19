@@ -3,8 +3,26 @@
     
     padding-bottom: 15px;
     transition: all 0.3s;
+
+
   }
 
+  .navbar-nav{
+      a{
+          &:link, &:visited, &:active, &:hover, &:focus{
+
+            color: #333;
+  text-decoration: none;
+  padding-bottom: 10px;
+          }
+      }
+      
+  }
+
+  .page {
+    min-height: 500px;
+  }
+  
   .navbar.compressed {
     padding-top: 10px;
     padding-bottom: 5px;

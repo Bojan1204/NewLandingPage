@@ -31,3 +31,7 @@ jQuery(document).ready(function(){
           }, 800);
    });
   })
+
+
+
+  $("#nav").scrollspy({ offset: -75 });

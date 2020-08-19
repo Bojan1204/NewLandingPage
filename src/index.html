@@ -19,7 +19,7 @@
 
 <body>
   <div class="container-fluid">
-    <nav class="navbar compressed fixed-top navbar-expand-md navbar-light  bg-light">
+    <nav class="navbar compressed fixed-top navbar-expand-md navbar-light  bg-light" id="nav">
       <a class="navbar-brand d-flex justify-content-between" href="#"><img src="img/navbar-brand.png" class="navbar-brand" alt="navbar-brand"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,9 +27,9 @@
       <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto d-flex align-items-center">
           <a class="nav-item nav-link active" href="#"><i class="fa fa-home"></i> <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#" onclick="scrollIntoShowcase()">Boost Auto Loan</a>
-          <a class="nav-item nav-link border-botm" href="#">Processing</a>
-          <a class="nav-item nav-link" href="#">How it Works</a>
+          <a class="nav-item nav-link" href="#page1">Boost Auto Loan</a>
+          <a class="nav-item nav-link border-botm" href="#page2">Processing</a>
+          <a class="nav-item nav-link" href="#page3">How it Works</a>
           <a class="nav-item nav-link" href="#">Faq</a>
           <a class="nav-item nav-link mr-2" href="#">Contact</a>
           <button class="navigation-btn" >APPLY NOW</button>
@@ -53,7 +53,7 @@
       </div>
     </header>
   </div>
-  <section id="scrollIntoShowcase" class="section">
+  <section id="page1" class="section page top-page">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
@@ -108,15 +108,15 @@
           </div>
           <hr class="mt-5">
         </div>
-  </section>
-  <article class="margin-article" onclick="scrollIntoShowcase()">
+  </section >
+  <article class="margin-article">
     <div class="container">
-      <div class="row">
+      <div class="row" >
         <div class="col-sm-12 col-lg-4 mb-5">
-          <div class="card">
-            <img class="card-img-top card-pic" src="img/retrovizor.jpg" alt="image">
+          <div class="card "  >
+            <img class="card-img-top card-pic" id="page2" src="img/retrovizor.jpg" alt="image">
             <div class="card-opacity-div"></div>
-            <p class="paragraph-opacity">PLANNING TO BUY CAR?</p>
+            <p class="paragraph-opacity" >PLANNING TO BUY CAR?</p>
             <div class="card-body text-center">
               <p class="card-text ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam molestiae mollitia deleniti velit
                 Illo omnis officia ut molestias, autem ducimus rerum nisi sapiente necessitatibus iusto perferendis doloribus.</p>
@@ -175,7 +175,7 @@
     </div>
     </div>
   </article>    
-  <main class="testimonials-img-bg">
+  <main class="testimonials-img-bg" id="page3">
     <div class="main-blanket">
       <div class="opacity-header">
         <div class="row">
