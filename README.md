@@ -1,10 +1,10 @@
-# Crowstart W4-B4 Kit
+# NewLandingPage
 ---
 This is a very basic starter kit for the project with Bootstrap 4 as a CSS framework and Webpack 4 as a module bundler.
 
 ## Table of Contents
 ---
-- [Crowstart W4-B4 Kit](#Crowstart-W4-B4-Kit)
+- [NewLandingPage](#NewLandingPage)
 - [Table of Contents](#table-of-contents)
 - [About the Project](#about-the-project)
 - [Status](#status)
@@ -125,12 +125,12 @@ The main benefit is creating separate files in separate folders, which is excell
 
 ## Getting Started
 ---
-This section provide instructions for other developers how to use Crowstart W4-B4 Kit (Webpack 4 & Bootstrap 4)
+This section provide instructions for other developers how to build the project.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 - If needed, [install](http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm) `node` and `npm` (Node Package Manager).
-- Clone this repo with `git clone https://github.com/crowscript/Crowstart-W4-B4-Kit.git` or download the zip. For this step, use npm terminal.
+- Clone this repo or download the zip. For this step, use npm terminal.
 - In terminal, `cd` to the folder containing your project. Alternatively, you can type `cd ` and drag the location of the folder into your terminal and hit enter.
 - In terminal, type `npm install`. If (and _only_ if) `npm install` isn't working, try `sudo npm install`. This should install all [dependencies](#dependencies).
 - In terminal, `npm run start` for server start (server itself won't to make dist folder, but all changes is visiable in browser) or/and enter `npm run build` to make dist folder.
@@ -159,14 +159,6 @@ How to install the requirements.
 
 `npm install`
 
-**tl;dr**: [Download Crowstart W4-B4 Kit](https://github.com/crowscript/Crowstart-W4-B4-Kit.git) and run `npm install` in that directory to get started.
-
-To take advantage of Crowstart W4-B4 Kit you need to:
-
-1. Get a copy of the code.
-2. Install the dependencies if you don't already have them.
-3. Modify the application to your liking.
-4. Deploy your production code.
 
 
 ### Dependencies
@@ -209,7 +201,7 @@ npm install
 
 ## How to Use
 ---
-Open in your favorite code editor folder **Crowstart-W4-B4-Kit** and start editing files in `src` folder.
+Open in your favorite code editor folder **NewLandingPage** and start editing files in `src` folder.
 If you want to change something in Webpack
 
 ### webpack.config.js
@@ -279,18 +271,12 @@ Modernizr does three things:
 <![endif]-->
 ```
 
-## Changelog
-
-**v1.0**
-	- Just the basic version, in the next versions expect more features ;-)
 
 ## Authors
 ---
-* **Stanislav Vranic** - *Web Developer* - [@crowscript](http://crowscript.com)
+* **Bojan Bosnic** - *Web Developer* 
 
 ## License
 ---
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-[Choose the License](https://choosealicense.com/)
 
 **[Back to top](#table-of-contents)**

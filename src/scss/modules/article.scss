@@ -64,6 +64,9 @@
         padding: 10px;
         background-color: #e95a0c;
         font-size: 12px;
+        
+
+       
     
     
     }
@@ -197,6 +200,7 @@
             a{
         
                 text-decoration: none;
+              
             }
             
         }
@@ -244,7 +248,6 @@
             background-color: #e95a0c;
         
         
-        
         }
     
         .margin-article-last{
@@ -287,6 +290,8 @@
             a{
         
                 text-decoration: none;
+
+                
             }
             
         }
@@ -352,8 +357,15 @@
             width: 220px;
             padding: 10px;
             background-color: #e95a0c;
+            text-align: center;
+            border: none;
+
+         
             
-        
+            &::focus{
+                outline-offset: 2px;
+                outline: 2px solid #000 ;
+            }
         }
     
         .margin-article-last{
