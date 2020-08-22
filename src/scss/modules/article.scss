@@ -309,10 +309,12 @@
           
         }
         
-        .card-pic{
+       .card-pic{
         
-            position: relative;
-        }
+          position: relative;
+     }
+
+      
         
         .card-opacity-div{
             width: 100%;
@@ -320,7 +322,8 @@
             opacity: 0.8;
             background-color: #b88428;
             position: absolute;
-            bottom: 243px;
+            bottom: 50%;
+            transform: translateY();
 
         }
 
