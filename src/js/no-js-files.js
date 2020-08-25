@@ -7,5 +7,5 @@ import '../scss/index.scss';
  //import '../img/icons/icon.png';
 import '../../.gitkeep';
 import '../.htaccess';
-import '../fonts/Anton-Regular.ttf';
+import '../fonts/Montserrat-Regular.ttf';
 
