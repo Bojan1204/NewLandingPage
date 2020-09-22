@@ -27,32 +27,7 @@
         position: relative;
     }
     
-    .card-opacity-div{
-        width: 100%;
-        height: 75px;
-        opacity: 0.5;
-        background-color: #b88428;
-        position: absolute;
-        bottom: 210px;
     
-    
-    }
-
-    .card-opacity-div1{
-
-        background-color: #494e52;
-    }
-    
-    .paragraph-opacity{
-        font-weight: bold;
-        font-size: 18px;
-        align-self: center;
-        color: #fff;
-        position: absolute;
-        top: 320px;
-       
-        
-    }
     
     
     .fa-check{
@@ -113,32 +88,7 @@
             position: relative;
         }
         
-        .card-opacity-div{
-            width: 100%;
-            height: 105px;
-            opacity: 0.5;
-            background-color: #b88428;
-            position: absolute;
-            bottom: 195px;
-        
-        
-        }
-
-        .card-opacity-div1{
-
-            background-color: #494e52;
-        }
-        
-        .paragraph-opacity{
-            font-weight: bold;
-            font-size: 22px;
-            align-self: center;
-            color: #fff;
-            position: absolute;
-            top: 435px;
-           
-            
-        }
+     
         
         
         .fa-check{
@@ -147,7 +97,7 @@
         
         .btnn-2{
             width: 220px;
-            padding: 10px;
+            padding: 8px;
             background-color: #e95a0c;
             font-size: 14px;
         
@@ -210,33 +160,8 @@
             position: relative;
         }
         
-        .card-opacity-div{
-            width: 100%;
-            height: 50px;
-            opacity: 0.5;
-            background-color: #b88428;
-            position: absolute;
-            bottom: 288px;
-        
-        
-        }
-        
-        .paragraph-opacity{
-            font-weight: bold;
-            align-self: center;
-            color: #fff;
-            font-size: 18px;
-            position: absolute;
-            top: 180px;
-           
-            
-        }
-
-        .card-opacity-div1{
-
-            background-color: #494e52;
-        }
-        
+       
+      
         
         .fa-check{
             color: #e95a0c;
@@ -244,7 +169,7 @@
         
         .btnn-2{
             width: 220px;
-            padding: 10px;
+            padding: 8px;
             background-color: #e95a0c;
         
         
@@ -263,7 +188,7 @@
 
             .p-size{
 
-                font-size: 16px;
+                font-size: 14px;
             }
         }
     }
@@ -309,44 +234,71 @@
           
         }
         
-       .card-pic{
+       .card-background{
         
           position: relative;
+          height: 30vh;
+          z-index: 1;
+          &::before{
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: url("../img/retrovizor.jpg")  no-repeat center center /cover;
+            content: '';
+            z-index: -1;
+          }
      }
+
+     .card-background1{
+
+        position: relative;
+        height: 30vh;
+        z-index: 1;
+        &::before{
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background: url("../img/original-1.jpg")  no-repeat center center /cover;
+          content: '';
+          z-index: -1;
+        }
+
+     }
+
+     .card-background2{
+
+        position: relative;
+        height: 30vh;
+        z-index: 1;
+        &::before{
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background: url("../img/legs-dashboard.jpg")  no-repeat center center /cover;
+          content: '';
+          z-index: -1;
+        }
+
+     }
+    
+   
+        
+   
+
+        
 
       
         
-        .card-opacity-div{
-            width: 100%;
-            height: 50px;
-            opacity: 0.8;
-            background-color: #b88428;
-            position: absolute;
-            bottom: 50%;
-            transform: translateY();
-
-        }
-
-        .card-opacity-div1{
-
-            background-color: #494e52;
-
-            &:hover{
-                background-color: #b88428;
-            }
-        }
-        
-        .paragraph-opacity{
-            font-weight: bold;
-            font-size: 18px;
-            align-self: center;
-            color: #fff;
-            position: absolute;
-            top: 220px;
-           
-            
-        }
-
+       
         .card-body{
             background-color: #eeeef0;
         }
@@ -358,18 +310,13 @@
         
         .btnn-2{
             width: 220px;
-            padding: 10px;
+            padding: 8px;
             background-color: #e95a0c;
-            text-align: center;
-            border-radius: none;
-           // margin-top: 50px;
+             text-align: center;
 
          
             
-            &::focus{
-                outline-offset: 2px;
-                outline: 2px solid #000 ;
-            }
+            
         }
     
         .margin-article-last{
@@ -384,11 +331,14 @@
 
             .p-size{
 
-                font-size: 18px;
+                font-size: 16px;
             }
         }
     }
 }
+
+
+
 
 
 
