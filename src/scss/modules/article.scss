@@ -221,82 +221,8 @@
             
         }
 
-        .card-btn1{
-
-           border: 2px solid #494e52;
-            color: #494e52;
-            
-            &:hover{
-                background-color: #e95a0c;
-                color: #fff;
-                border: 2px solid #e95a0c;
-            }
-          
-        }
         
-       .card-background{
         
-          position: relative;
-          height: 30vh;
-          z-index: 1;
-          &::before{
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background: url("../img/retrovizor.jpg")  no-repeat center center /cover;
-            content: '';
-            z-index: -1;
-          }
-     }
-
-     .card-background1{
-
-        position: relative;
-        height: 30vh;
-        z-index: 1;
-        &::before{
-          position: absolute;
-          top: 0;
-          right: 0;
-          left: 0;
-          height: 100%;
-          width: 100%;
-          background: url("../img/original-1.jpg")  no-repeat center center /cover;
-          content: '';
-          z-index: -1;
-        }
-
-     }
-
-     .card-background2{
-
-        position: relative;
-        height: 30vh;
-        z-index: 1;
-        &::before{
-          position: absolute;
-          top: 0;
-          right: 0;
-          left: 0;
-          height: 100%;
-          width: 100%;
-          background: url("../img/legs-dashboard.jpg")  no-repeat center center /cover;
-          content: '';
-          z-index: -1;
-        }
-
-     }
-    
-   
-        
-   
-
-        
-
-      
         
        
         .card-body{
