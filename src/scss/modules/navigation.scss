@@ -1,12 +1,28 @@
-.navbar {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    transition: all 0.3s;
+
+.navbar-brand{
+
+  height: 100%;
+  
+
+}
 
 
-  }
 
   .navbar-nav{
+
+    .nav-item{
+      @include media-breakpoint-up(md){
+
+        font-size: 13px;
+      }
+
+      @include media-breakpoint-up(lg){
+
+        font-size: 16px;
+      }
+      
+    }
+   
       a{
           &:link, &:visited, &:active, &:hover, &:focus{
 
@@ -15,89 +31,72 @@
   padding-bottom: 10px;
           }
       }
-      
-  }
 
+
+
+ 
   .page {
     min-height: 500px;
   }
   
-  .navbar.compressed {
-    padding-top: 10px;
-    padding-bottom: 5px;
-    box-shadow:  2px  2px  rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-  }
-
-
-  .navbar-brand{
-
-    height: 100%;
-    
-
-  }
-
-  .navbar-nav{
+ 
   
-    a{
-        position: relative;
-        display: block;
-        text-decoration: none;
-        color: red;
-        padding: 4px 0;
-        transition: .5s;
+@include media-breakpoint-up(md){
+  .navigation-btn{
+    width: 100px;
+padding: 8px;
+font-size: 13px;
+color: #ffffff;
+background-color: #e95a0c;
+border: 1px solid #e95a0c;
 
-        &::after{
+&:hover{
+    color: #e95a0c ;
+    background-color: transparent;
+}
+ 
 
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 3px;
-            top:100%;
-            left: 0;
-            background: #3498ad;
-            transition: transform 0.5s;
-            transform: scaleX(0);
-            transform-origin: right;
-        }
+}
 
-        &:hover{
-            color: #95a5a6;
-            &:hover::after{
-                transform: scaleX(1);
-                transform-origin: left;
-            }
-        }
-    }
 
+a{
+
+    text-decoration: none;
+}
+
+}
+
+
+
+  @include media-breakpoint-up(lg){
     .navigation-btn{
-        width: 120px;
-        padding: 8px;
-        font-size: 16px;
-        color: #ffffff;
-        background-color: #e95a0c;
-        border: 1px solid #e95a0c;
+      width: 120px;
+  padding: 8px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e95a0c;
+  border: 1px solid #e95a0c;
 
-        &:hover{
-            color: #e95a0c ;
-            background-color: transparent;
-        }
-
-        a{
-        
-            text-decoration: none;
-        }
-        &:after {
-          height: 100%;
-          left: 0;
-          top: 0;
-          width: 0;
-        }
-        
-        &:hover:after {
-          width: 100%;
-        }
-    }
+  &:hover{
+      color: #e95a0c ;
+      background-color: transparent;
   }
+   
+
+  }
+
+
+  a{
+  
+      text-decoration: none;
+  }
+  
+}
+
+
+
+}
+
+
 
 
