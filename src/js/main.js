@@ -1,12 +1,10 @@
 
-$(document).ready(function() {
-  $(window).on("scroll", function() {
-    if ($(window).scrollTop() >= 20) {
-      $(".navbar").addClass("compressed");
-    } else {
-      $(".navbar").removeClass("compressed");
-    }
-  });
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
 });
 
 

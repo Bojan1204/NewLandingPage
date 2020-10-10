@@ -229,6 +229,7 @@
 }
 
 @include media-breakpoint-up(md){
+
     .testimonials-img-bg {
     position: relative;
     height: 100vh;
@@ -344,7 +345,7 @@
 @include media-breakpoint-up(lg){
     .testimonials-img-bg {
     position: relative;
-    height: 80vh;
+    height: 100vh;
     z-index: 1;
     text-align: center;
     font-size: 50px;
@@ -402,7 +403,7 @@
 
         .slider{
 
-            margin-top: 10px;
+            margin-top: 50px;
         }
         
         .img-radius{
@@ -458,7 +459,7 @@
 
     .testimonials-img-bg {
     position: relative;
-    height: 80vh;
+    height: 100vh;
     z-index: 1;
     text-align: center;
     font-size: 50px;
