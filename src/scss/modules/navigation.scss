@@ -39,7 +39,27 @@
     min-height: 500px;
   }
   
+  .navigation-btn{
+    width: 100px;
+padding: 8px;
+font-size: 13px;
+color: #ffffff;
+background-color: #e95a0c;
+border: 1px solid #e95a0c;
+
+&:hover{
+    color: #e95a0c ;
+    background-color: transparent;
+}
  
+
+}
+
+
+a{
+
+    text-decoration: none;
+}
   
 @include media-breakpoint-up(md){
   .navigation-btn{
