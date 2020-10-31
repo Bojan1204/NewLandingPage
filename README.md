@@ -279,4 +279,8 @@ Modernizr does three things:
 ## License
 ---
 
+## Credits
+---
+Original Author of theme - @crowscript
+
 **[Back to top](#table-of-contents)**
