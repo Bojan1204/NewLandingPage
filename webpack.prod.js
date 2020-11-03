@@ -75,7 +75,7 @@ module.exports = merge(common, {
                 collapseWhitespace: true,
                 removeAttributeQuotes: true
             }
-        }),
+        }) ,
     ],
 
 });

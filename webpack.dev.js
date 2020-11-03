@@ -46,7 +46,7 @@ module.exports = merge(common, {
         // new MiniCssExtractPlugin({
         //     filename: '' + cssPath + '[name].css',
         //     chunkFilename: '' + cssPath + '[id].css',
-        // }),
+        // }) ,
 
         new HtmlWebpackPlugin({
             template: './src/index.html',
