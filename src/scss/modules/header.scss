@@ -1,7 +1,29 @@
 
+    .probicabre{
+
+   
     .heading{
-        
-        background: rgb(194,194,194);
+      
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        height: 100vh;
+        background-color: #000000;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            
+            background-image: url('../img/clock4.jpg');
+        background-size: cover;
+        background-position: top center;
+        opacity: 0.30;
+        }
 
         .proba{
 
@@ -43,13 +65,32 @@
         }
     }
     
-
+}
 
 @include media-breakpoint-up(sm){
 
     .heading{
         
-        background: rgb(194,194,194);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        height: 100vh;
+        background-color: #000000;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            
+            background-image: url('../img/clock4.jpg');
+        background-size: cover;
+        background-position: top center;
+        opacity: 0.30;
+        }
 
         .proba{
 
@@ -107,12 +148,50 @@
 
     .heading{
         
-        background: rgb(194,194,194);
-
-        .proba{
-
-            margin-top: 3.5rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        height: 100vh;
+        background-color: #000000;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            
+            background-image: url('../img/clock4.jpg');
+        background-size: cover;
+        background-position: top center;
+        opacity: 0.30;
         }
+
+       
+        .navbar{
+            transition: 0.5s all ease-in-out;
+           
+            a{
+                color: #ffffff;
+                text-transform: uppercase;
+                &:hover{
+                    color: #dddddd;
+                }
+            }
+
+        }
+
+
+        .addNavigation{
+            padding: 5px 100px;
+            background-color: blue;
+            color: #000;
+           
+        }
+
+      
 
         h1{
             font-size: 16px;
@@ -166,13 +245,50 @@
 
     .heading{
         
-        background: rgb(194,194,194);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        height: 100vh;
+        background-color: #000000;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            
+            background-image: url('../img/clock4.jpg');
+        background-size: cover;
+        background-position: top center;
+        opacity: 0.30;
+        }
 
-        .proba{
+        
+        .navbar{
+            transition: 0.5s all ease-in-out;
+           
+            a{
+                color: #ffffff;
+                text-transform: uppercase;
+                &:hover{
+                    color: #dddddd;
+                }
+            }
 
-            margin-top: 3rem;
+        }
+
+
+        .addNavigation{
+            padding: 5px 100px;
+            background-color: blue;
+            color: #000;
            
         }
+
+      
         
        h1{
            font-size: 22px;
@@ -218,10 +334,53 @@
 @include media-breakpoint-up(xl){
 
     .heading{
-        
-        background: rgb(194,194,194);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        height: 100vh;
+        background-color: #000000;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            
+            background-image: url('../img/clock4.jpg');
+        background-size: cover;
+        background-position: top center;
+        opacity: 0.30;
+        }
+
+        .navbar{
+            transition: 0.5s all ease-in-out;
+           
+            a{
+                color: #ffffff;
+                text-transform: uppercase;
+                &:hover{
+                    color: #dddddd;
+                }
+            }
+
+        }
+
+
+        .addNavigation{
+
+            padding: 5px 100px;
+            height: 70px;
+            background-color: #584b4f;
+            color: #000;
+           
+        }
+
         
         h1{
+            position: relative;
             font-size: 28px;
         }
 
@@ -236,12 +395,19 @@
             width: 250px;
             padding: 10px;
             text-align: center;
-            border: none;
+            // border-color: #e95a0c ;
+            transition: 0.3s ease-in-out;
           
     
             .header-shape1{
                 margin-left: 10px;
                 font-size: 20px;
+            }
+
+            &:hover{
+                background-color: transparent;
+                color: #ffffff;
+                border: 1px solid #ffffff;
             }
 
         }
@@ -255,6 +421,8 @@
             color: gray;
         }
     }
+
+    
     
 }
   
@@ -263,3 +431,14 @@ a:focus{
 }
 
 
+.normalText{
+    transition: 0.6s all ease-in-out;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.konj{
+    transform: translateY(0px);
+    opacity: 1;
+    
+}

@@ -199,7 +199,15 @@
 
     .margin-article{
         margin-top: 70px;
-    
+        
+        .card{
+            transition: 0.3s ease-in-out;
+            &:hover{
+                -webkit-box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.75);
+                box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.75);
+            }
+        }
         .card-btn{
             width: 250px;
             font-size: 18px;
@@ -207,6 +215,7 @@
             background-color: transparent;
             border: 2px solid #e95a0c;
             color: #e95a0c;
+            transition: 0.3s ease-in-out;
             &:hover{
                 background-color: #e95a0c;
                 color: #fff;
@@ -237,11 +246,16 @@
         .btnn-2{
             width: 220px;
             padding: 8px;
+            color: #fff;
             background-color: #e95a0c;
              text-align: center;
+             border: none;
 
-         
-            
+         &:hover{
+             background-color: transparent;
+             color: #000;
+             border: 1px solid #000;
+         }
             
         }
     
@@ -258,6 +272,13 @@
             .p-size{
 
                 font-size: 16px;
+            }
+
+            .button-article{
+                &:hover{
+                    background-color: red;
+                    color: black;
+                }
             }
         }
     }

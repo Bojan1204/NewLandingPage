@@ -1,35 +1,73 @@
+let normal = document.querySelector('.normalText');
+ 
 
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('nav').addClass('shrink');
-  } else {
-    $('nav').removeClass('shrink');
-  }
-});
+const hideText =()=>{
+    let neznam = normal.getBoundingClientRect().top;
+    let ekran = window.innerHeight / 1.4;  
+   if(neznam < ekran){
+       normal.classList.add('konj');
+   }
+   
+}
+
+addEventListener('scroll', hideText);
 
 
-jQuery(document).ready(function(){
-  //   insert back to top button dynamicly
-   $( "#backToTop" ).append('<a class="backToTop" href="javascript:void(null);" style="display: none;"><i class="fa fa-angle-up"></i><iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>');
-    var $window = $(window);
-    var distance = 80;
-      // scroll
-    $window.scroll(function() {
-      // header
-      if($window.scrollTop() >= distance) {
-        $(".backToTop").fadeIn();
-      }else{
-        $(".backToTop").fadeOut();
-      }
-    });
-    
-    $('.backToTop').click(function() {
-      $('html, body').animate({
-              scrollTop: 0
-          }, 800);
-   });
-  })
+const navigacija = document.querySelector('.navigacija');
 
 
 
-  $("#nav").scrollspy({ offset: -75 });
+window.onscroll =()=>{
+    if(window.scrollY > 5){
+        navigacija.classList.add('addNavigation');
+    }else{
+        navigacija.classList.remove('addNavigation');
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if(window.scrollY > 1){
+//     navigacija.classList.toggle('addNavigation');
+// }else(window.scrollY > 800){
+//     navigacija.classList.toggle('addNavigationSecond');
+//     navigacija.classList.remove('addNavigation');
+
+// }

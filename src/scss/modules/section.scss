@@ -391,11 +391,14 @@
         }
         
         .sign3{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+             position: absolute;
+             top: 50%;
+             left: 50%;
+            opacity: 1;
+            transform: translateX(-50%, -50%);
+
         }
+
         
         .btn-2{
             width: 200px;
@@ -411,8 +414,9 @@
             }
         }
     
-    
+
     }
 
 
 }
+
