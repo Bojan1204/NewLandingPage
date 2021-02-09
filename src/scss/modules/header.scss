@@ -1,76 +1,93 @@
+.heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 100vh;
+    background-color: #000000;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
 
-    .probicabre{
-
-   
-    .heading{
-      
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #ffffff;
-        height: 100vh;
-        background-color: #000000;
-        &::before{
-            content: '';
-            position: absolute;
-            top: 0px;
-            right: 0px;
-            bottom: 0px;
-            left: 0px;
-            
-            background-image: url('../img/clock4.jpg');
+        background-image: url("../img/clock4.jpg");
         background-size: cover;
         background-position: top center;
-        opacity: 0.30;
-        }
+        opacity: 0.3;
+    }
 
-        .proba{
+    .navbar {
+        .navbar-brand {
+                   font-size: 22px;
+                }
+        // height: 70px;
+        background-color: #584b4f;
+        transition: 0.5s all ease-in-out;
 
-            margin-top: 7rem;
-        }
-        
-        .header-container-1{
-
-            margin-left: 50px;
-        }
-
-        .header-pic{
-            display: none;
-        }
-
-        .header-button{
-            background-color: #e95a0c;
-            color: white;
-            width: 250px;
-            padding: 10px;
-            text-align: center;
-            border: none;
-          
-    
-            .header-shape1{
-                margin-left: 10px;
-                font-size: 20px;
+        a {
+            color: #ffffff;
+            text-transform: uppercase;
+            &:hover {
+                color: #dddddd;
             }
-
-        }
-    
-        a{
-            text-decoration: none;
-        }
-    
-        .header-credit{
-            font-size: 12px;
-            color: gray;
         }
     }
-    
+
+    // .addNavigation {
+    //     padding: 5px 100px;
+    //     width: 100%;
+    //     height: 100px;
+    //     background-color: #584b4f;
+    //     color: #000;
+
+    //     .navbar-brand {
+    //         font-size: 22px;
+    //     }
+    // }
+
+    h1 {
+        text-transform: uppercase;
+        position: relative;
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+   
+
+    .header-pic {
+        display: none;
+    }
+
+    .header-button {
+        background-color: #e95a0c;
+        color: white;
+        width: 250px;
+        padding: 10px;
+        text-align: center;
+        border: none;
+
+        .header-shape1 {
+            margin-left: 10px;
+            font-size: 20px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .header-credit {
+        font-size: 12px;
+        color: gray;
+    }
 }
 
-@include media-breakpoint-up(sm){
-
-    .heading{
-        
+@include media-breakpoint-up(sm) {
+    .heading {
         position: relative;
         display: flex;
         justify-content: center;
@@ -78,42 +95,63 @@
         color: #ffffff;
         height: 100vh;
         background-color: #000000;
-        &::before{
-            content: '';
+        &::before {
+            content: "";
             position: absolute;
             top: 0px;
             right: 0px;
             bottom: 0px;
             left: 0px;
-            
-            background-image: url('../img/clock4.jpg');
-        background-size: cover;
-        background-position: top center;
-        opacity: 0.30;
+
+            background-image: url("../img/clock4.jpg");
+            background-size: cover;
+            background-position: top center;
+            opacity: 0.3;
         }
 
-        .proba{
+        .navbar {
+            .navbar-brand {
+                font-size: 22px;
+             }
+     // height: 70px;
+     background-color: #584b4f;
+     transition: 0.5s all ease-in-out;
 
-            margin-top: 5.5rem;
-            
+            a {
+                color: #ffffff;
+                text-transform: uppercase;
+                &:hover {
+                    color: #dddddd;
+                }
+            }
         }
 
-        h1{
+        // .addNavigation {
+        //     padding: 5px 50px;
+        //     height: 70px;
+        //     background-color: #584b4f;
+        //     color: #ffffff;
+        //     .navbar-brand {
+        //         font-size: 22px;
+        //     }
+        // }
+
+       
+
+        h1 {
             font-size: 14px;
         }
-        
-        .header-container-1{
 
+        .header-container-1 {
             margin-left: 50px;
         }
 
-        .header-pic{
+        .header-pic {
             margin-top: 1rem;
             display: block;
-            
         }
 
-        .header-button{
+        .header-button {
             background-color: #e95a0c;
             color: white;
             font-size: 8px;
@@ -121,33 +159,31 @@
             padding: 8px;
             text-align: center;
             border: none;
-          
-    
-            .header-shape1{
+
+            .header-shape1 {
                 margin-left: 10px;
                 font-size: 15px;
             }
-
+            &:hover {
+                background-color: transparent;
+                color: #ffffff;
+                border: 1px solid #ffffff;
+            }
         }
-    
-        a{
+
+        a {
             text-decoration: none;
         }
-    
-        .header-credit{
+
+        .header-credit {
             font-size: 10px;
             color: gray;
         }
     }
-    
 }
-  
 
-
-@include media-breakpoint-up(md){
-
-    .heading{
-        
+@include media-breakpoint-up(md) {
+    .heading {
         position: relative;
         display: flex;
         justify-content: center;
@@ -155,59 +191,55 @@
         color: #ffffff;
         height: 100vh;
         background-color: #000000;
-        &::before{
-            content: '';
+        &::before {
+            content: "";
             position: absolute;
             top: 0px;
             right: 0px;
             bottom: 0px;
             left: 0px;
-            
-            background-image: url('../img/clock4.jpg');
-        background-size: cover;
-        background-position: top center;
-        opacity: 0.30;
+
+            background-image: url("../img/clock4.jpg");
+            background-size: cover;
+            background-position: top center;
+            opacity: 0.3;
         }
 
-       
-        .navbar{
+        .navbar, .navbar-collapse {
+            background-color: transparent;
             transition: 0.5s all ease-in-out;
-           
-            a{
+
+            a {
                 color: #ffffff;
                 text-transform: uppercase;
-                &:hover{
+                &:hover {
                     color: #dddddd;
                 }
             }
-
         }
 
-
-        .addNavigation{
-            padding: 5px 100px;
-            background-color: blue;
+        .addNavigation {
+            padding: 5px 50px;
+            height: 70px;
+            background-color: #584b4f;
             color: #000;
-           
+            .navbar-brand {
+                font-size: 16px;
+            }
         }
 
-      
-
-        h1{
+        h1 {
             font-size: 16px;
+            line-height: 40px;
+
         }
-        
-        
-        .header-pic{
+
+        .header-pic {
             display: block;
         }
 
-        .header-container-1{
 
-            margin-left: 50px;
-        }
-
-        .header-button{
+        .header-button {
             background-color: #e95a0c;
             color: white;
             font-size: 10px;
@@ -215,36 +247,26 @@
             padding: 8px;
             text-align: center;
             border: none;
-          
-    
-            .header-shape1{
+
+            .header-shape1 {
                 margin-left: 10px;
                 font-size: 16px;
             }
-
         }
-    
-        a{
+
+        a {
             text-decoration: none;
         }
-    
-        .header-credit{
+
+        .header-credit {
             font-size: 12px;
             color: gray;
         }
     }
-    
 }
-  
-    
 
-
-
-
-@include media-breakpoint-up(lg){
-
-    .heading{
-        
+@include media-breakpoint-up(lg) {
+    .heading {
         position: relative;
         display: flex;
         justify-content: center;
@@ -252,53 +274,51 @@
         color: #ffffff;
         height: 100vh;
         background-color: #000000;
-        &::before{
-            content: '';
+        &::before {
+            content: "";
             position: absolute;
             top: 0px;
             right: 0px;
             bottom: 0px;
             left: 0px;
-            
-            background-image: url('../img/clock4.jpg');
-        background-size: cover;
-        background-position: top center;
-        opacity: 0.30;
+            background-image: url("../img/clock4.jpg");
+            background-size: cover;
+            background-position: top center;
+            opacity: 0.3;
         }
 
-        
         .navbar{
+
             transition: 0.5s all ease-in-out;
-           
-            a{
+
+            a {
                 color: #ffffff;
                 text-transform: uppercase;
-                &:hover{
+                &:hover {
                     color: #dddddd;
                 }
             }
-
         }
 
-
-        .addNavigation{
-            padding: 5px 100px;
-            background-color: blue;
+        .addNavigation {
+            padding: 5px 50px;
+            height: 70px;
+            background-color: #584b4f;
             color: #000;
-           
+            .navbar-brand {
+                font-size: 22px;
+            }
         }
 
-      
-        
-       h1{
-           font-size: 22px;
-       }
+        h1 {
+            font-size: 22px;
+            line-height: 40px;
+        }
 
-       
-       .header-pic{
-        display: block;
-    }
-        .header-button{
+        .header-pic {
+            display: block;
+        }
+        .header-button {
             background-color: #e95a0c;
             color: white;
             font-size: 14px;
@@ -306,34 +326,31 @@
             padding: 8px;
             text-align: center;
             border: none;
-          
-    
-            .header-shape1{
+
+            .header-shape1 {
                 margin-left: 10px;
                 font-size: 18px;
             }
-
+            &:hover {
+                background-color: transparent;
+                color: #ffffff;
+                border: 1px solid #ffffff;
+            }
         }
-    
-        a{
+
+        a {
             text-decoration: none;
         }
-    
-        .header-credit{
+
+        .header-credit {
             font-size: 14px;
             color: gray;
         }
     }
-    
 }
-  
-    
 
-
-
-@include media-breakpoint-up(xl){
-
-    .heading{
+@include media-breakpoint-up(xl) {
+    .heading {
         position: relative;
         display: flex;
         justify-content: center;
@@ -341,55 +358,55 @@
         color: #ffffff;
         height: 100vh;
         background-color: #000000;
-        &::before{
-            content: '';
+        &::before {
+            content: "";
             position: absolute;
             top: 0px;
             right: 0px;
             bottom: 0px;
             left: 0px;
-            
-            background-image: url('../img/clock4.jpg');
-        background-size: cover;
-        background-position: top center;
-        opacity: 0.30;
+            background-image: url("../img/clock4.jpg");
+            background-size: cover;
+            background-position: top center;
+            opacity: 0.3;
         }
 
-        .navbar{
+        .navbar {
+
             transition: 0.5s all ease-in-out;
-           
-            a{
+
+            a {
                 color: #ffffff;
                 text-transform: uppercase;
-                &:hover{
+                &:hover {
                     color: #dddddd;
                 }
             }
-
         }
 
-
-        .addNavigation{
-
+        .addNavigation {
             padding: 5px 100px;
             height: 70px;
             background-color: #584b4f;
             color: #000;
-           
+
+            .navbar-brand {
+                font-size: 22px;
+            }
         }
 
-        
-        h1{
+        h1 {
+            text-transform: uppercase;
             position: relative;
             font-size: 28px;
+            line-height: 50px;
         }
 
-        
-        .header-pic{
+        .header-pic {
             display: block;
         }
 
-        .header-button{
+        .header-button {
             background-color: #e95a0c;
             color: white;
             width: 250px;
@@ -397,48 +414,41 @@
             text-align: center;
             // border-color: #e95a0c ;
             transition: 0.3s ease-in-out;
-          
-    
-            .header-shape1{
+
+            .header-shape1 {
                 margin-left: 10px;
                 font-size: 20px;
             }
 
-            &:hover{
+            &:hover {
                 background-color: transparent;
                 color: #ffffff;
                 border: 1px solid #ffffff;
             }
-
         }
-    
-        a{
+
+        a {
             text-decoration: none;
         }
-    
-        .header-credit{
+
+        .header-credit {
             font-size: 16px;
             color: gray;
         }
     }
-
-    
-    
 }
-  
-a:focus{
+
+a:focus {
     color: #000000;
 }
 
-
-.normalText{
+.normalText {
     transition: 0.6s all ease-in-out;
     opacity: 0;
     transform: translateY(20px);
 }
 
-.konj{
+.showText {
     transform: translateY(0px);
     opacity: 1;
-    
 }

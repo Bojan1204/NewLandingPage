@@ -1,214 +1,225 @@
-.margin-article{
+.margin-article {
     margin-top: 70px;
 
-    .card-btn{
+    .card {
+        transition: 0.3s ease-in-out;
+        &:hover {
+            -webkit-box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+        }
+    }
+
+    .card-btn {
         width: 200px;
         font-size: 12px;
         padding: 10px;
         background-color: transparent;
         border: 2px solid #e95a0c;
         color: #e95a0c;
-        &:hover{
+        transition: 0.3s ease-in-out;
+
+        &:hover {
             background-color: #e95a0c;
             color: #fff;
         }
-       
-        a{
-    
+
+        a {
             text-decoration: none;
         }
-        
     }
 
- 
-    
-    .card-pic{
-    
+    .card-pic {
         position: relative;
     }
-    
-    
-    
-    
-    .fa-check{
+
+    .fa-check {
         color: #e95a0c;
     }
-    
-    .btnn-2{
+
+    .btnn-2 {
         width: 200px;
         padding: 10px;
         background-color: #e95a0c;
         font-size: 12px;
-        
+        text-align: center;
+        border-color: #e95a0c;
+        transition: 0.2s ease-in-out;
+        margin-top: 45px;
 
-       
-    
-    
+        &:hover {
+            background-color: transparent;
+            color: #e95a0c;
+            border: 1px solid #e95a0c;
+        }
     }
 
-    .margin-article-last{
+    .margin-article-last {
         margin-top: 110px;
         margin-bottom: 110px;
 
-        .p-mt{
-
+        .p-mt {
             margin-top: 30px;
-          
-            
         }
-        
     }
 }
 
-
-@include media-breakpoint-up(md){
-    .margin-article{
+@include media-breakpoint-up(md) {
+    .margin-article {
         margin-top: 70px;
-    
-        .card-btn{
+
+        .card {
+            transition: 0.3s ease-in-out;
+            &:hover {
+                -webkit-box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+            }
+        }
+
+        .card-btn {
             width: 200px;
             padding: 15px;
             background-color: transparent;
             border: 2px solid #e95a0c;
             color: #e95a0c;
-            &:hover{
+            transition: 0.3s ease-in-out;
+
+            &:hover {
                 background-color: #e95a0c;
                 color: #fff;
             }
-           
-            a{
-        
+
+            a {
                 text-decoration: none;
             }
-            
         }
-        
-        .card-pic{
-        
+
+        .card-pic {
             position: relative;
         }
-        
-     
-        
-        
-        .fa-check{
+
+        .fa-check {
             color: #e95a0c;
         }
-        
-        .btnn-2{
+
+        .btnn-2 {
             width: 220px;
             padding: 8px;
             background-color: #e95a0c;
             font-size: 14px;
-        
-        
-        
+            text-align: center;
+            border-color: #e95a0c;
+            transition: 0.2s ease-in-out;
+            margin-top: 45px;
+
+            &:hover {
+                background-color: transparent;
+                color: #e95a0c;
+                border: 1px solid #e95a0c;
+            }
         }
-    
-        .margin-article-last{
+
+        .margin-article-last {
             margin-top: 110px;
             margin-bottom: 110px;
 
-            .p-mt{
-
+            .p-mt {
                 margin-top: 30px;
                 margin-left: 50px;
-                
             }
 
-            .p-size{
+            .p-size {
                 font-size: 14px;
             }
-
-            
         }
     }
 }
 
-
-
-
-
-
-@include media-breakpoint-up(lg){
-
-    .margin-article{
+@include media-breakpoint-up(lg) {
+    .margin-article {
         margin-top: 70px;
-    
-        .card-btn{
+
+        .card {
+            transition: 0.3s ease-in-out;
+            &:hover {
+                -webkit-box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+            }
+        }
+
+        .card-btn {
             width: 180px;
             padding: 10px;
             font-size: 16px;
             background-color: transparent;
             border: 2px solid #e95a0c;
             color: #e95a0c;
-            &:hover{
+            transition: 0.3s ease-in-out;
+            &:hover {
                 background-color: #e95a0c;
                 color: #fff;
             }
-           
-            a{
-        
+
+            a {
                 text-decoration: none;
-              
             }
-            
         }
-        
-        .card-pic{
-        
+
+        .card-pic {
             position: relative;
         }
-        
-       
-      
-        
-        .fa-check{
+
+        .fa-check {
             color: #e95a0c;
         }
-        
-        .btnn-2{
+
+        .btnn-2 {
             width: 220px;
             padding: 8px;
             background-color: #e95a0c;
-        
-        
+            text-align: center;
+            border-color: #e95a0c;
+            transition: 0.2s ease-in-out;
+            margin-top: 45px;
+
+            &:hover {
+                background-color: transparent;
+                color: #e95a0c;
+                border: 1px solid #e95a0c;
+            }
         }
-    
-        .margin-article-last{
+
+        .margin-article-last {
             margin-top: 110px;
             margin-bottom: 110px;
 
-            .p-mt{
-
+            .p-mt {
                 margin-top: 0;
                 margin-left: auto;
-                
             }
 
-            .p-size{
-
+            .p-size {
                 font-size: 14px;
             }
         }
     }
 }
 
-
-@include media-breakpoint-up(xl){
-
-    .margin-article{
+@include media-breakpoint-up(xl) {
+    .margin-article {
         margin-top: 70px;
-        
-        .card{
+
+        .card {
             transition: 0.3s ease-in-out;
-            &:hover{
-                -webkit-box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.75);
-                -moz-box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.75);
-                box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.75);
+            &:hover {
+                -webkit-box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.75);
             }
         }
-        .card-btn{
+        .card-btn {
             width: 250px;
             font-size: 18px;
             padding: 10px;
@@ -216,66 +227,56 @@
             border: 2px solid #e95a0c;
             color: #e95a0c;
             transition: 0.3s ease-in-out;
-            &:hover{
+            &:hover {
                 background-color: #e95a0c;
                 color: #fff;
             }
-           
-            a{
-        
-                text-decoration: none;
 
-                
+            a {
+                text-decoration: none;
             }
-            
         }
 
-        
-        
-        
-       
-        .card-body{
+        .card-body {
             background-color: #eeeef0;
         }
-        
-        
-        .fa-check{
+
+        .fa-check {
             color: #e95a0c;
         }
-        
-        .btnn-2{
+
+        .btnn-2 {
             width: 220px;
             padding: 8px;
             color: #fff;
             background-color: #e95a0c;
-             text-align: center;
-             border: none;
+            text-align: center;
+            border-color: #e95a0c;
+            transition: 0.2s ease-in-out;
+            margin-top: 80px;
 
-         &:hover{
-             background-color: transparent;
-             color: #000;
-             border: 1px solid #000;
-         }
-            
+            &:hover {
+                background-color: transparent;
+                color: #e95a0c;
+                border: 1px solid #e95a0c;
+            }
         }
-    
-        .margin-article-last{
+
+        .margin-article-last {
             margin-top: 110px;
             margin-bottom: 110px;
 
-            .p-mt{
+            .p-mt {
                 margin-top: 0;
                 margin-left: auto;
-                
             }
 
-            .p-size{
-
+            .p-size {
                 font-size: 16px;
             }
 
-            .button-article{
-                &:hover{
+            .button-article {
+                &:hover {
                     background-color: red;
                     color: black;
                 }
@@ -283,9 +284,3 @@
         }
     }
 }
-
-
-
-
-
-
