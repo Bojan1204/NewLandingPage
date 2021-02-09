@@ -9,6 +9,21 @@
         background: #584b4f;
     }
 
+    .navigation-btn {
+        width: 120px;
+        padding: 8px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #e95a0c;
+        border: 1px solid #e95a0c;
+        transition: 0.15s ease-in-out;
+
+        &:hover {
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            background-color: transparent;
+        }
+    }
 
 
     .nav-item {
