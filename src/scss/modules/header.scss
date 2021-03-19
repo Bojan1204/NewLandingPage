@@ -71,11 +71,18 @@ html{
         width: 250px;
         padding: 10px;
         text-align: center;
-        border: none;
+        border-color: #e95a0c ;
+
 
         .header-shape1 {
             margin-left: 10px;
             font-size: 20px;
+        }
+
+        &:hover {
+            background-color: transparent;
+            color: #ffffff;
+            border: 1px solid #ffffff;
         }
     }
 
@@ -152,7 +159,8 @@ html{
             width: 150px;
             padding: 8px;
             text-align: center;
-            border: none;
+            border-color: #e95a0c ;
+
 
             .header-shape1 {
                 margin-left: 10px;
@@ -240,11 +248,18 @@ html{
             width: 180px;
             padding: 8px;
             text-align: center;
-            border: none;
+            border-color: #e95a0c ;
+
 
             .header-shape1 {
                 margin-left: 10px;
                 font-size: 16px;
+            }
+
+            &:hover {
+                background-color: transparent;
+                color: #ffffff;
+                border: 1px solid #ffffff;
             }
         }
 
@@ -319,7 +334,8 @@ html{
             width: 200px;
             padding: 8px;
             text-align: center;
-            border: none;
+            border-color: #e95a0c ;
+
 
             .header-shape1 {
                 margin-left: 10px;
@@ -406,7 +422,7 @@ html{
             width: 250px;
             padding: 10px;
             text-align: center;
-            // border-color: #e95a0c ;
+             border-color: #e95a0c ;
             transition: 0.3s ease-in-out;
 
             .header-shape1 {
