@@ -10,6 +10,8 @@ const hideText = () => {
 
 addEventListener("scroll", hideText);
 
+
+
 const navigacija = document.querySelector(".navigacija");
 
 window.onscroll = () => {
